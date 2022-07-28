@@ -38,5 +38,10 @@ public class Student {
 	public void setRollNo(String rollNo) {
 		this.rollNo = rollNo;
 	}
+
+	public int getUserID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	  
 }

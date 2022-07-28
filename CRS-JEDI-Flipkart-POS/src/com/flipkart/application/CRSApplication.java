@@ -46,7 +46,7 @@ public class CRSApplication {
 	            switch (loginResponse) {
 	                case 1:
 	                   // Student Interface
-	                	StudentApplication.showStudentMenu();
+	                	StudentApplication.studentMenuHandler();
                         break;
 	                case 2:
 	                   // Professor Interface

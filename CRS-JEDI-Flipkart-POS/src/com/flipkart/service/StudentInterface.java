@@ -9,6 +9,10 @@ import com.flipkart.bean.Student;
 
 public interface StudentInterface {
 	
+	
+	
+	  public void viewCourseCatalogue();
+	
 	  public void logout();
 
 	  GradeCard viewReportCard(SemesterRegistration semesterRegistration);

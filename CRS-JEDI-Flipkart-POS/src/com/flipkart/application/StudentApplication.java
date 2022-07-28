@@ -3,7 +3,23 @@
  */
 package com.flipkart.application;
 
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
+
+import com.flipkart.bean.Course;
+import com.flipkart.bean.CourseCatalog;
+import com.flipkart.bean.Payment;
+import com.flipkart.bean.SemesterRegistration;
+import com.flipkart.service.CourseCatalogueImpl;
+import com.flipkart.service.CourseImpl;
+import com.flipkart.service.NotificationImpl;
+import com.flipkart.service.PaymentImpl;
+import com.flipkart.service.RegisteredCourseImpl;
+import com.flipkart.service.SemesterRegistrationImpl;
+import com.flipkart.service.StudentImpl;
+
 
 /**
  * @author vanshika.yadav
@@ -25,13 +41,136 @@ public class StudentApplication {
 	    System.out.println("----------------------------------------------------");
 	  }
 	
-	  public static void professorMenuHandler() {
-	        Scanner sc = new Scanner(System.in);
-	        System.out.print("Enter admin username: ");
-	        String username = sc.next();
-	        System.out.print("Enter admin password: ");
-	        String password = sc.next();
-	        StudentApplication.showStudentMenu();
-	  }
+	  public static void studentMenuHandler() {
+		    Scanner sc = new Scanner(System.in);
+		    CourseCatalog chosen = new CourseCatalogueImpl().getCourseCatalogues().get(0);
+		    StudentImpl stud = new StudentImpl();
+		    CourseImpl courseImpl = new CourseImpl();
+		    RegisteredCourseImpl regImpl = new RegisteredCourseImpl();
+		    CourseCatalogueImpl courseCatalogue = new CourseCatalogueImpl();
+		    SemesterRegistrationImpl semImpl = new SemesterRegistrationImpl();
+		    
+	 
+		   
+		    System.out.print("Enter student username: ");
+		    String username = sc.next();
+		    System.out.print("Enter student password: ");
+		    String password = sc.next();
+		    
+		    showStudentMenu();
+		    
+		    System.out.print("Your Choice: ");
+		    int option = sc.nextInt();
+            
+		    SemesterRegistration chosenSem = null;
 
+		    
+		    while(true) {
+		    if (option == 1) {
+
+		        System.out.println("\n\n **********ALL THE AVAILABLE COURSES ARE********* \n\n");
+		        
+		        List<Course> courses = courseImpl.findCourses(chosen);
+		        
+		        System.out.println("Total " + courses.size() + " courses found");
+		        if(courses.size()>0) {
+		        System.out.println("-------------------------------------------------------------------------------------------------------------");
+		        System.out.format("%25s%25s%25s%25s%n", "Course Code", "Course Description", "Course Department", "Course Prerequisites" );
+		        System.out.println("-------------------------------------------------------------------------------------------------------------");
+		        
+		        }
+		        for (Course course : courses) {
+
+		          System.out.format("%25s%25s%25s%25s%n",course.getCourseCode(), course.getDescriptions(), course.getDepartment(), course.getPreRequisites());         
+		        }
+		        
+		     
+		     System.out.println("-------------------------------------------------------------------------------------------------------------");
+		    }else if(option == 2) {
+		    	  System.out.println("Enter course you want to add");
+		    	  String course = sc.next(); 
+		    	  //Course c = courseImpl.findCourse(chosen, sc.next());
+		          //stud.registerForCourse(chosenSem, c);
+		          System.out.println("Course "+ course + " registered");
+		    	
+		    }else if(option == 3) {
+		    	    System.out.println("Enter course code to be dropped: ");
+		    	    int courseCode = sc.nextInt();
+		        	//regImpl.dropRegisteredCourse(regImpl.findRegisteredCourse(chosenSem, sc.next()));
+		        	System.out.println("Course dropped " + courseCode);
+		    }else if (option == 4) {
+
+		        System.out.println("Payment options: ");
+
+		        System.out.println();
+
+		        System.out.println("Press 1 - Pay Online");
+
+		        System.out.println("Press 2 - Pay Offline");
+
+		        int option2 = sc.nextInt();
+		        String mode = "Online";
+
+		        if (option2 == 2) {
+
+		          mode = "Offline";
+		        }
+		        
+
+		        Payment p = new Payment();
+
+		        p.setMode(mode);
+		        p.setStudentId(stud.getStudentInstance().getUserID());
+		        
+		        p.setSemesterRegistrationId(chosenSem.getId());
+
+		        PaymentImpl paymentImpl = new PaymentImpl();
+		        
+		        paymentImpl.makePayment(p);
+		          System.out.println("Payment Done!");
+		          new NotificationImpl().showNotification("Payment done at " + LocalDateTime.now(), stud.getStudentInstance().getRollNo());
+		    }else if (option == 5) {
+		    	System.out.println("Registered Courses are");
+                List<String> C = new ArrayList<String>();
+		        
+		        C.add("course1");
+		        C.add("course2");
+		        C.add("course3");
+		        for (String course : C) {
+                     System.out.println(course);
+		        }
+		        
+		        System.out.println("-------------------------------------------------------------------------------------------------------------");
+		    }else if (option == 6) {
+		    	System.out.println("Your Grade is 7.6");
+		    	
+		    }else if (option == 7) {
+
+		        System.out.println("All Notifications are");   
+		        
+		    } else if(option == 8) {
+		    	  
+		    	  System.out.println("Enter your current pssword !!");
+		    	  String pass = sc.next();
+		    	  System.out.println("Enter your new Password");
+		    	  String newPass = sc.next();
+		    	  
+		    	  System.out.println("**Password changed successfully**");
+		    }else if (option == 9) {
+		        stud.logout();
+		        break;
+		    	
+		    }else {
+		        System.out.println("Enter valid Inputs");
+		    }
+		    
+		    showStudentMenu();
+		    System.out.println("Your choice:");
+		    option = sc.nextInt();  
+	    }    
+	  }	
 }
+		  
+	
+
+
