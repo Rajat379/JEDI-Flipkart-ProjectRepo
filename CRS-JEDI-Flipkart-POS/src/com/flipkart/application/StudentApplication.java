@@ -8,9 +8,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import javax.management.Notification;
+
 import com.flipkart.bean.Course;
 import com.flipkart.bean.CourseCatalog;
+import com.flipkart.bean.GradeCard;
 import com.flipkart.bean.Payment;
+import com.flipkart.bean.PaymentNotification;
 import com.flipkart.bean.SemesterRegistration;
 import com.flipkart.service.CourseCatalogueImpl;
 import com.flipkart.service.CourseImpl;
@@ -89,15 +93,15 @@ public class StudentApplication {
 		    }else if(option == 2) {
 		    	  System.out.println("Enter course you want to add");
 		    	  String course = sc.next(); 
-		    	  //Course c = courseImpl.findCourse(chosen, sc.next());
-		          //stud.registerForCourse(chosenSem, c);
+		    	  Course c = courseImpl.findCourse(chosen, course);
+		          stud.registerForCourse(chosenSem, c);
 		          System.out.println("Course "+ course + " registered");
 		    	
 		    }else if(option == 3) {
-		    	    System.out.println("Enter course code to be dropped: ");
-		    	    int courseCode = sc.nextInt();
-		        	//regImpl.dropRegisteredCourse(regImpl.findRegisteredCourse(chosenSem, sc.next()));
-		        	System.out.println("Course dropped " + courseCode);
+		    	    System.out.println("Enter course name to be dropped: ");
+		    	    String courseName = sc.next();
+		        	regImpl.dropRegisteredCourse(regImpl.findRegisteredCourse(chosenSem, courseName));
+		        	System.out.println("Course dropped " + courseName);
 		    }else if (option == 4) {
 
 		        System.out.println("Payment options: ");
@@ -117,18 +121,18 @@ public class StudentApplication {
 		        }
 		        
 
-		        Payment p = new Payment();
-
-		        p.setMode(mode);
-		        p.setStudentId(stud.getStudentInstance().getUserID());
-		        
-		        p.setSemesterRegistrationId(chosenSem.getId());
-
-		        PaymentImpl paymentImpl = new PaymentImpl();
-		        
-		        paymentImpl.makePayment(p);
+//		        Payment p = new Payment();
+//
+//		        p.setMode(mode);
+//		        p.setStudentId(stud.getStudentInstance().getUserID());
+//		        
+//		        p.setSemesterRegistrationId(chosenSem.getId());
+//
+//		        PaymentImpl paymentImpl = new PaymentImpl();
+//		        
+//		        paymentImpl.makePayment(p);
 		          System.out.println("Payment Done!");
-		          new NotificationImpl().showNotification("Payment done at " + LocalDateTime.now(), stud.getStudentInstance().getRollNo());
+		      //new NotificationImpl().showNotification("Payment done at " + LocalDateTime.now(), stud.getStudentInstance().getRollNo());
 		    }else if (option == 5) {
 		    	System.out.println("Registered Courses are");
                 List<String> C = new ArrayList<String>();
@@ -142,11 +146,39 @@ public class StudentApplication {
 		        
 		        System.out.println("-------------------------------------------------------------------------------------------------------------");
 		    }else if (option == 6) {
-		    	System.out.println("Your Grade is 7.6");
+		        GradeCard report = stud.viewReportCard(chosenSem);
+		        System.out.println("Report Card:");
+		        System.out.println("--------------------------------------------------------");
+//		        System.out.format("%25s%25s%n", "Course Code", "Grade");
+//		        System.out.println("--------------------------------------------------------");
+//		        for (int i = 0; i < report.getCourseCodes().size(); i++) {
+//		        	
+//		          System.out.format("%25s%25s%n", report.getCourseCodes().get(i), report.getGrades().get(i));
+//		        
+//		        }
+		        System.out.println("--------------------------------------------------------");
+		        System.out.println("GPA: " + 7.6);
+		        System.out.println("--------------------------------------------------------");
 		    	
 		    }else if (option == 7) {
 
-		        System.out.println("All Notifications are");   
+		        System.out.println("All Notifications are");
+
+		        //int studentId = stud.getStudentInstance().getUserID();
+
+		        //NotificationImpl notificationImp = new NotificationImpl();
+
+		        //List<PaymentNotification> notificationList = new ArrayList<PaymentNotification>();
+
+		        //notificationList = notificationImpl.getNotification(studentId);
+
+//		        for (PaymentNotification n : notificationList) {
+//
+//		          System.out.println(n.getMessage());
+//		        } 
+		        
+		        
+		        
 		        
 		    } else if(option == 8) {
 		    	  
@@ -154,7 +186,7 @@ public class StudentApplication {
 		    	  String pass = sc.next();
 		    	  System.out.println("Enter your new Password");
 		    	  String newPass = sc.next();
-		    	  
+		    	  //boolean changed = stud.changePassword(stud.getStudentInstance().getUserID(),pass,newPass);
 		    	  System.out.println("**Password changed successfully**");
 		    }else if (option == 9) {
 		        stud.logout();

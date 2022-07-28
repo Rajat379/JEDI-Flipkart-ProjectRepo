@@ -7,7 +7,7 @@ package com.flipkart.bean;
  * @author vanshika.yadav
  *
  */
-public class Professor {
+public class Professor extends User{
 	
 	  /** The emp ID. */
 	  private String empID;

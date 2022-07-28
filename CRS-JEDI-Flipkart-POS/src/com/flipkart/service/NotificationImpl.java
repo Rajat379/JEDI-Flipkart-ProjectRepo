@@ -13,6 +13,10 @@ import javax.management.Notification;
  */
 public class NotificationImpl implements NotificationInterface{
 
+	public boolean showNotification(String message, String rollno) {
+
+		    return true;
+    }
 	@Override
 	public List<Notification> getNotification(int studentId) {
 		// TODO Auto-generated method stub

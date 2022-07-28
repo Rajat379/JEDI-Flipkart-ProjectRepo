@@ -67,7 +67,7 @@ public class StudentImpl implements StudentInterface{
 	@Override
 	public boolean checkAvailability(Course courseToCheck) {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	@Override
@@ -88,7 +88,7 @@ public class StudentImpl implements StudentInterface{
 	@Override
 	public boolean login(String username, String password) {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	@Override
@@ -114,5 +114,23 @@ public class StudentImpl implements StudentInterface{
 		// TODO Auto-generated method stub
 		return false;
 	}
+    
+	public boolean addStudent(String email,String password,String name,String username,String roll,String dept){
 
+	        Student s = new Student();
+	        s.setEmail(email);
+	        s.setUsername(name);
+	        s.setPassword(password);
+	        s.setUsername(username);
+	        s.setRollNo(roll);
+	        s.setDepartment(dept);
+	        s.setApproved(false);
+	        
+	        return true;
+	  }
+	   
+      public boolean changePassword(int id,String password,String newPassword) {
+    		return true;
+      }
+      
 }

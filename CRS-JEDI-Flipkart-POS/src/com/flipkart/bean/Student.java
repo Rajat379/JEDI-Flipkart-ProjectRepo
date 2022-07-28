@@ -7,7 +7,7 @@ package com.flipkart.bean;
  * @author vanshika.yadav
  *
  */
-public class Student {
+public class Student extends User{
 	/** The department. */
 	private String department;
 	private boolean isApproved;
