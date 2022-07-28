@@ -89,15 +89,15 @@ public class StudentApplication {
 		    }else if(option == 2) {
 		    	  System.out.println("Enter course you want to add");
 		    	  String course = sc.next(); 
-		    	  //Course c = courseImpl.findCourse(chosen, sc.next());
-		          //stud.registerForCourse(chosenSem, c);
+		    	  Course c = courseImpl.findCourse(chosen, sc.next());
+		          stud.registerForCourse(chosenSem, c);
 		          System.out.println("Course "+ course + " registered");
 		    	
 		    }else if(option == 3) {
-		    	    System.out.println("Enter course code to be dropped: ");
-		    	    int courseCode = sc.nextInt();
-		        	//regImpl.dropRegisteredCourse(regImpl.findRegisteredCourse(chosenSem, sc.next()));
-		        	System.out.println("Course dropped " + courseCode);
+		    	    System.out.println("Enter course name to be dropped: ");
+		    	    String courseName = sc.next();
+		        	regImpl.dropRegisteredCourse(regImpl.findRegisteredCourse(chosenSem, sc.next()));
+		        	System.out.println("Course dropped " + courseName);
 		    }else if (option == 4) {
 
 		        System.out.println("Payment options: ");
@@ -128,7 +128,7 @@ public class StudentApplication {
 		        
 		        paymentImpl.makePayment(p);
 		          System.out.println("Payment Done!");
-		          new NotificationImpl().showNotification("Payment done at " + LocalDateTime.now(), stud.getStudentInstance().getRollNo());
+//		          new NotificationImpl().showNotification("Payment done at " + LocalDateTime.now(), stud.getStudentInstance().getRollNo());
 		    }else if (option == 5) {
 		    	System.out.println("Registered Courses are");
                 List<String> C = new ArrayList<String>();
