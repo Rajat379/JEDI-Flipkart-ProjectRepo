@@ -46,17 +46,17 @@ public class CRSApplication {
 	            switch (loginResponse) {
 	                case 1:
 	                   // Student Interface
-	                	System.out.println("Student Interface");
-                       break;
+	                	StudentApplication.showStudentMenu();
+                        break;
 	                case 2:
 	                   // Professor Interface
-	                   System.out.println("Professor Interface");
+	                	ProfessorApplication.professorMenuHandler();
 	                   break;
 	                case 3:
 	                   // Admin Interface
-	                   System.out.println("Admin Interface");
+	                	AdminApplication.adminMenuHandler();
 	                   break;
-	                   default:
+	                default:
 	                   System.out.println("Please enter valid input");
 	             } 
 	          }else if(response1 == 2){
