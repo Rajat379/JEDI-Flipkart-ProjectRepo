@@ -1,0 +1,150 @@
+19:58:08,170 ERROR StudentDAOInterface,main:102 - 
+Table 'jedicrs.user' doesn't exist
+
+11:19:20,951 ERROR UserDAOInterface,main:57 - 
+Table 'jedicrs.user' doesn't exist
+
+11:19:20,953 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+11:20:08,312 ERROR StudentOperation,main:226 - 
+null
+
+11:20:20,468 ERROR CoursesDAOInterfaceIMPL,main:61 - 
+Table 'jedicrs.course' doesn't exist
+
+11:54:20,138 ERROR StudentOperation,main:226 - 
+null
+
+11:54:53,098 ERROR StudentOperation,main:226 - 
+null
+
+12:49:38,641 ERROR StudentOperation,main:226 - 
+null
+
+12:51:20,844 ERROR StudentOperation,main:226 - 
+null
+
+13:06:27,408 ERROR UserDAOInterface,main:57 - 
+Illegal operation on empty result set.
+
+13:06:27,410 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+15:46:46,032 ERROR StudentOperation,main:226 - 
+null
+
+15:56:31,658 ERROR UserDAOInterface,main:57 - 
+Cannot determine value type from string 'IT'
+
+15:56:31,659 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+16:01:02,459 ERROR StudentDAOInterface,main:452 - 
+Table 'jedicrs.semregistration' doesn't exist
+
+16:01:02,462 ERROR StudentDAOInterface,main:411 - 
+Table 'jedicrs.semregistration' doesn't exist
+
+16:01:02,462 ERROR StudentDAOInterface,main:198 - 
+You have already added this course
+
+16:02:12,475  INFO StudentDAOInterface,main:212 - 
+Course 1 added successfully
+
+16:02:35,823  INFO StudentDAOInterface,main:251 - 
+Course 2 added successfully
+
+16:03:11,430 ERROR StudentDAOInterface,main:513 - 
+
+There are no payments to show
+
+
+16:03:25,866 ERROR StudentDAOInterface,main:147 - 
+
+There are no payments to show
+
+
+16:03:41,116 ERROR StudentDAOInterface,main:513 - 
+
+There are no payments to show
+
+
+16:03:54,569 ERROR StudentDAOInterface,main:147 - 
+
+There are no payments to show
+
+
+16:13:23,729  INFO UserDAOInterface,main:49 - 
+---Logged in successfully---
+
+16:13:34,742 ERROR ProfessorInterfaceImpl,main:123 - 
+NO courses are assigned to you
+
+16:13:45,528  INFO ProfessorDAOInterfaceIMPL,main:240 - 
+Course assigned successfully
+
+16:13:59,595 ERROR ProfessorInterfaceImpl,main:234 - 
+No student is currently enrolled in the course!!!
+
+16:14:08,009  INFO ProfessorDAOInterfaceIMPL,main:189 - =======Assigned Courses=======
+16:14:08,010  INFO ProfessorDAOInterfaceIMPL,main:194 - ---------------------------------------------------
+16:14:08,011  INFO ProfessorDAOInterfaceIMPL,main:195 -            Course ID
+16:14:08,011  INFO ProfessorDAOInterfaceIMPL,main:196 - ---------------------------------------------------
+16:14:08,011  INFO ProfessorDAOInterfaceIMPL,main:200 -                    1
+16:14:21,185  INFO ProfessorDAOInterfaceIMPL,main:292 - =====Enrolled Students in course1======
+16:14:21,194  INFO ProfessorDAOInterfaceIMPL,main:299 - 
+There are no students enrolled for this course
+
+16:14:43,623 ERROR ProfessorInterfaceImpl,main:58 - 
+No Students to Grade!!!
+
+21:52:28,234  INFO StudentDAOInterface,main:212 - 
+Course 1 added successfully
+
+21:52:49,092 ERROR StudentDAOInterface,main:318 - 
+You have added this course as primary
+
+21:53:00,698  INFO StudentDAOInterface,main:283 - 
+Course 1 deleted successfully
+
+21:53:28,180  INFO StudentDAOInterface,main:212 - 
+Course 1 added successfully
+
+21:53:43,128  INFO StudentDAOInterface,main:251 - 
+Course 2 added successfully
+
+21:54:05,424 ERROR StudentDAOInterface,main:147 - 
+
+There are no payments to show
+
+
+21:54:12,418 ERROR StudentDAOInterface,main:513 - 
+
+There are no payments to show
+
+
+21:55:46,217  INFO UserDAOInterface,main:49 - 
+---Logged in successfully---
+
+21:55:52,422  INFO ProfessorDAOInterfaceIMPL,main:189 - =======Assigned Courses=======
+21:55:52,422  INFO ProfessorDAOInterfaceIMPL,main:194 - ---------------------------------------------------
+21:55:52,423  INFO ProfessorDAOInterfaceIMPL,main:195 -            Course ID
+21:55:52,424  INFO ProfessorDAOInterfaceIMPL,main:196 - ---------------------------------------------------
+21:55:52,424  INFO ProfessorDAOInterfaceIMPL,main:200 -                    1
+21:56:14,789  INFO ProfessorDAOInterfaceIMPL,main:292 - =====Enrolled Students in course3======
+21:56:14,795  INFO ProfessorDAOInterfaceIMPL,main:299 - 
+There are no students enrolled for this course
+
+21:57:20,130 ERROR ProfessorInterfaceImpl,main:58 - 
+No Students to Grade!!!
+
+21:57:52,947 ERROR ProfessorInterfaceImpl,main:92 - 
+No Students in the given course!!!
+
+15:35:59,286  INFO UserDAOInterface,main:56 - 
+02-08-2022 15:35:59---Logged in successfully---
+
+15:53:53,913  INFO UserDAOInterface,main:56 - 
+02-08-2022 15:53:53---Logged in successfully---
+
