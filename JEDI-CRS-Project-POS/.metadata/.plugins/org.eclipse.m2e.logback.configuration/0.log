@@ -1,0 +1,7 @@
+2022-08-04 15:32:33,172 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-04 15:33:32,269 [Worker-2: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.flipkart:JEDI-CRS-DROPWIZARD-PROJECT:1.0-SNAPSHOT @ /Users/vanshika.yadav/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/CRS-JEDI-Project-Repo-2022/JEDI-CRS-DROPWIZARD-PROJECT/pom.xml.
+2022-08-04 15:33:33,392 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-04 15:33:33,392 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vanshika.yadav/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/CRS-JEDI-Project-Repo-2022/JEDI-CRS-DROPWIZARD-PROJECT/src/main/resources
+2022-08-04 15:33:33,393 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-04 15:33:33,394 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/vanshika.yadav/Documents/workspace-spring-tool-suite-4-4.15.1.RELEASE/CRS-JEDI-Project-Repo-2022/JEDI-CRS-DROPWIZARD-PROJECT/src/test/resources
+2022-08-04 15:39:54,138 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
