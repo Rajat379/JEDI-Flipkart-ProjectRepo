@@ -1,0 +1,720 @@
+16:55:04,279  INFO UserDAOInterface,main:56 - 
+02-08-2022 16:55:04---Logged in successfully---
+
+21:12:54,516 ERROR ProfessorCRSMenu,main:51 - Invalid Choice
+21:18:03,656  INFO UserDAOInterface,main:51 - 
+---Your application is not yet approved by the admin---
+
+21:20:28,805  INFO UserDAOInterface,main:56 - 
+02-08-2022 21:20:28---Logged in successfully---
+
+21:20:45,868 ERROR AdminDAOInterfaceIMPL,main:262 - 
+Data truncation: Incorrect date value: '0' for column 'billDate' at row 1
+
+21:21:03,527  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+21:21:03,528  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+21:21:03,529  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+21:21:03,529  INFO AdminDAOInterfaceIMPL,main:281 -          1             Vanshika 
+21:21:03,529  INFO AdminDAOInterfaceIMPL,main:281 -          2              Random2 
+21:21:03,529  INFO AdminDAOInterfaceIMPL,main:281 -          1             Randprof 
+21:21:03,530  INFO AdminDAOInterfaceIMPL,main:281 -          4              Random4 
+21:21:03,530  INFO AdminDAOInterfaceIMPL,main:281 -         10              Harshit 
+21:21:03,530  INFO AdminDAOInterfaceIMPL,main:281 -         11               Sparsh 
+21:21:03,530  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+21:23:21,928 ERROR CRSApplication,main:103 - 
+The input format is invalid
+
+
+21:23:36,117  INFO UserDAOInterface,main:56 - 
+02-08-2022 21:23:36---Logged in successfully---
+
+21:23:39,478  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:23:39,479  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:23:39,479  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:23:39,480  INFO AdminDAOInterfaceIMPL,main:349 -          1             Vanshika 
+21:23:39,480  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:23:39,480  INFO AdminDAOInterfaceIMPL,main:349 -          4              Random4 
+21:23:39,480  INFO AdminDAOInterfaceIMPL,main:349 -         10              Harshit 
+21:23:39,481  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:23:39,481  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:23:44,759  INFO AdminDAOInterfaceIMPL,main:78 - -----------------------------------------------------------------------------
+21:23:44,760  INFO AdminDAOInterfaceIMPL,main:79 - Course NAME                GRADE 
+21:23:44,760  INFO AdminDAOInterfaceIMPL,main:80 - -----------------------------------------------------------------------------
+21:23:44,760  INFO AdminDAOInterfaceIMPL,main:84 - 
+
+
+21:23:52,887  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:23:52,888  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:23:52,888  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:23:52,888  INFO AdminDAOInterfaceIMPL,main:349 -          1             Vanshika 
+21:23:52,888  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:23:52,888  INFO AdminDAOInterfaceIMPL,main:349 -          4              Random4 
+21:23:52,889  INFO AdminDAOInterfaceIMPL,main:349 -         10              Harshit 
+21:23:52,889  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:23:52,889  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:23:55,139  INFO AdminDAOInterfaceIMPL,main:78 - -----------------------------------------------------------------------------
+21:23:55,139  INFO AdminDAOInterfaceIMPL,main:79 - Course NAME                GRADE 
+21:23:55,139  INFO AdminDAOInterfaceIMPL,main:80 - -----------------------------------------------------------------------------
+21:23:55,140  INFO AdminDAOInterfaceIMPL,main:84 - 
+
+
+21:23:58,782  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:23:58,782  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:23:58,782  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:23:58,783  INFO AdminDAOInterfaceIMPL,main:349 -          1             Vanshika 
+21:23:58,783  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:23:58,783  INFO AdminDAOInterfaceIMPL,main:349 -          4              Random4 
+21:23:58,783  INFO AdminDAOInterfaceIMPL,main:349 -         10              Harshit 
+21:23:58,783  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:23:58,783  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:24:00,774  INFO AdminDAOInterfaceIMPL,main:78 - -----------------------------------------------------------------------------
+21:24:00,775  INFO AdminDAOInterfaceIMPL,main:79 - Course NAME                GRADE 
+21:24:00,775  INFO AdminDAOInterfaceIMPL,main:80 - -----------------------------------------------------------------------------
+21:24:00,775  INFO AdminDAOInterfaceIMPL,main:84 - 
+
+
+21:24:04,584  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:24:04,584  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:24:04,584  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:24:04,584  INFO AdminDAOInterfaceIMPL,main:349 -          1             Vanshika 
+21:24:04,585  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:24:04,585  INFO AdminDAOInterfaceIMPL,main:349 -          4              Random4 
+21:24:04,585  INFO AdminDAOInterfaceIMPL,main:349 -         10              Harshit 
+21:24:04,585  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:24:04,585  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:24:07,438  INFO AdminDAOInterfaceIMPL,main:78 - -----------------------------------------------------------------------------
+21:24:07,438  INFO AdminDAOInterfaceIMPL,main:79 - Course NAME                GRADE 
+21:24:07,438  INFO AdminDAOInterfaceIMPL,main:80 - -----------------------------------------------------------------------------
+21:24:07,438  INFO AdminDAOInterfaceIMPL,main:84 - 
+
+
+21:24:34,050  INFO AdminDAOInterfaceIMPL,main:110 - Professor successfully added.
+21:35:43,194  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+21:35:43,196  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+21:35:43,196  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+21:35:43,196  INFO AdminDAOInterfaceIMPL,main:325 -          1             Randprof 
+21:35:43,197  INFO AdminDAOInterfaceIMPL,main:325 -         45                 Amit 
+21:35:43,197  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+21:35:48,616  INFO AdminDAOInterfaceIMPL,main:137 - 
+Unable to remove Professor
+
+21:36:00,229  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+21:36:00,230  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+21:36:00,230  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+21:36:00,230  INFO AdminDAOInterfaceIMPL,main:325 -         45                 Amit 
+21:36:00,230  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+21:36:01,742  INFO AdminDAOInterfaceIMPL,main:134 - 
+Professor successfully removed
+
+21:36:14,576  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+21:36:14,576  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+21:36:14,576  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+21:36:14,576  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+21:37:02,936  INFO AdminDAOInterfaceIMPL,main:134 - 
+Professor successfully removed
+
+21:37:15,926  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:37:15,927  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:37:15,927  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:37:15,927  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:37:15,927  INFO AdminDAOInterfaceIMPL,main:349 -         10              Harshit 
+21:37:15,928  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:37:15,928  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:37:21,593  INFO AdminDAOInterfaceIMPL,main:163 - Student successfully deleted.
+21:37:34,055  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:37:34,056  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:37:34,056  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:37:34,056  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:37:34,056  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:37:34,056  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:37:42,330  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+21:37:42,331  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+21:37:42,331  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+21:37:42,331  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+21:38:11,212  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+21:38:11,213  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+21:38:11,213  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+21:38:11,213  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+21:38:11,213  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+21:38:11,213  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+21:38:17,734  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+21:38:17,735  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+21:38:17,735  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+21:38:17,735  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+21:38:17,736  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+21:38:17,736  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+21:57:40,822 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:01:36,432 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:03:30,361 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:04:04,787 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:05:24,927 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:06:08,324 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:08:34,396 ERROR StudentDAOInterface,main:105 - 
+Unknown column 'email' in 'field list'
+
+22:23:44,632 ERROR CRSApplication,main:103 - 
+The input format is invalid
+
+
+22:26:26,480  INFO UserDAOInterface,main:56 - 
+02-08-2022 22:26:26---Logged in successfully---
+
+22:26:51,756  INFO AdminDAOInterfaceIMPL,main:110 - Professor successfully added.
+22:32:28,561  INFO AdminDAOInterfaceIMPL,main:110 - Professor successfully added.
+22:34:53,740  INFO AdminDAOInterfaceIMPL,main:110 - Professor successfully added.
+22:36:53,480 ERROR AdminDAOInterfaceIMPL,main:262 - 
+Data truncation: Incorrect date value: '0' for column 'billDate' at row 1
+
+22:38:49,301  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+22:38:49,303  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+22:38:49,304  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+22:38:49,304  INFO AdminDAOInterfaceIMPL,main:281 -          2              Random2 
+22:38:49,304  INFO AdminDAOInterfaceIMPL,main:281 -         15                Rahul 
+22:38:49,304  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+22:39:04,810  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+22:39:04,812  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+22:39:04,812  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+22:39:04,813  INFO AdminDAOInterfaceIMPL,main:281 -         15                Rahul 
+22:39:04,813  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+22:39:31,879  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+22:39:31,881  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+22:39:31,881  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+22:39:31,881  INFO AdminDAOInterfaceIMPL,main:281 -         15                Rahul 
+22:39:31,882  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+22:40:44,772  INFO UserDAOInterface,main:56 - 
+02-08-2022 22:40:44---Logged in successfully---
+
+22:41:12,767  INFO UserDAOInterface,main:56 - 
+02-08-2022 22:41:12---Logged in successfully---
+
+22:43:03,273  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+22:43:03,273  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+22:43:03,274  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+22:43:03,274  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+22:44:00,939  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+22:44:00,940  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+22:44:00,940  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+22:44:00,940  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+22:44:00,940  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+22:44:00,941  INFO AdminDAOInterfaceIMPL,main:349 -         15                Rahul 
+22:44:00,942  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+22:44:07,491  INFO AdminDAOInterfaceIMPL,main:163 - Student successfully deleted.
+22:44:52,452  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+22:44:52,453  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+22:44:52,453  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+22:44:52,453  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+22:44:52,454  INFO AdminDAOInterfaceIMPL,main:349 -         11               Sparsh 
+22:44:52,454  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+22:44:52,454  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+22:44:52,454  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+22:44:52,455  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+22:44:52,455  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+22:44:52,455  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+22:44:52,456  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+22:44:52,456  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+22:45:19,428  INFO AdminDAOInterfaceIMPL,main:163 - Student successfully deleted.
+22:46:13,863 ERROR AdminOperation,main:46 - 
+The input format is invalid
+
+22:46:49,341  INFO AdminDAOInterfaceIMPL,main:189 - 
+Course successfully added
+
+22:48:48,086  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+22:48:48,087  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+22:48:48,088  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+22:48:48,088  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+22:48:48,088  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+22:48:48,088  INFO AdminDAOInterfaceIMPL,main:373 -         12                   WD 
+22:48:48,088  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+22:48:51,710  INFO AdminDAOInterfaceIMPL,main:213 - 
+Course successfully removed
+
+22:48:57,941  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+22:48:57,942  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+22:48:57,942  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+22:48:57,942  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+22:48:57,942  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+22:48:57,942  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+22:49:06,046  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+22:49:06,046  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+22:49:06,046  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+22:49:06,047  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+22:49:06,047  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+22:49:06,047  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+22:49:06,047  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+22:49:06,047  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+22:49:06,048  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+22:49:06,048  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+22:49:06,048  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+22:49:06,048  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+22:49:13,013  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+22:49:13,013  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+22:49:13,013  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+22:49:13,014  INFO AdminDAOInterfaceIMPL,main:325 -         67                 Prof 
+22:49:13,014  INFO AdminDAOInterfaceIMPL,main:325 -         33                  HIJ 
+22:49:13,014  INFO AdminDAOInterfaceIMPL,main:325 -         34                  HIJ 
+22:49:13,014  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+22:51:13,753  INFO UserDAOInterface,main:56 - 
+02-08-2022 22:51:13---Logged in successfully---
+
+22:51:42,695  INFO AdminDAOInterfaceIMPL,main:189 - 
+Course successfully added
+
+22:55:15,479 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+22:55:39,316 ERROR StudentOperation,main:65 - Format specifier '%-18s'
+22:58:07,482 ERROR StudentDAOInterface,main:221 - 
+
+Invalid Course ID
+
+
+22:58:38,405  INFO UserDAOInterface,main:56 - 
+02-08-2022 22:58:38---Logged in successfully---
+
+22:58:47,942 ERROR ProfessorInterfaceImpl,main:126 - 
+NO courses are assigned to you
+
+22:59:03,690 ERROR ProfessorInterfaceImpl,main:165 - 
+Course is already assigned to some other professor . 
+
+22:59:15,766  INFO ProfessorDAOInterfaceIMPL,main:245 - 
+Course assigned successfully
+
+22:59:28,414 ERROR ProfessorCRSMenu,main:51 - Invalid Choice
+23:03:26,556  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:03:26---Logged in successfully---
+
+23:03:45,688 ERROR ProfessorInterfaceImpl,main:200 - 
+Course was already removed. 
+
+23:04:09,261  INFO ProfessorDAOInterfaceIMPL,main:297 - =====Enrolled Students in course2======
+23:04:09,263  INFO ProfessorDAOInterfaceIMPL,main:307 - ---------------------------------------------------
+23:04:09,263  INFO ProfessorDAOInterfaceIMPL,main:308 -           Student ID
+23:04:09,263  INFO ProfessorDAOInterfaceIMPL,main:309 - ---------------------------------------------------
+23:04:09,264  INFO ProfessorDAOInterfaceIMPL,main:313 -                    1
+23:04:09,264  INFO ProfessorDAOInterfaceIMPL,main:313 -                    1
+23:04:09,264  INFO ProfessorDAOInterfaceIMPL,main:313 -                    1
+23:04:23,213 ERROR ProfessorInterfaceImpl,main:200 - 
+Course was already removed. 
+
+23:04:33,420 ERROR ProfessorInterfaceImpl,main:126 - 
+NO courses are assigned to you
+
+23:04:42,366  INFO ProfessorDAOInterfaceIMPL,main:245 - 
+Course assigned successfully
+
+23:04:50,985 ERROR ProfessorInterfaceImpl,main:200 - 
+Course was already removed. 
+
+23:04:58,121 ERROR ProfessorInterfaceImpl,main:126 - 
+NO courses are assigned to you
+
+23:05:04,485  INFO ProfessorDAOInterfaceIMPL,main:245 - 
+Course assigned successfully
+
+23:05:22,472 ERROR ProfessorInterfaceImpl,main:126 - 
+NO courses are assigned to you
+
+23:05:32,043  INFO ProfessorDAOInterfaceIMPL,main:245 - 
+Course assigned successfully
+
+23:05:36,285 ERROR ProfessorInterfaceImpl,main:126 - 
+NO courses are assigned to you
+
+23:11:08,707 ERROR ProfessorCRSMenu,main:51 - Invalid Choice
+23:12:50,893  INFO UserDAOInterface,main:51 - 
+---Your application is not yet approved by the admin---
+
+23:13:00,772  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:13:00---Logged in successfully---
+
+23:13:04,825  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+23:13:04,826  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+23:13:04,826  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+23:13:04,826  INFO AdminDAOInterfaceIMPL,main:281 -         23                   JK 
+23:13:04,826  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+23:13:16,301  INFO AdminDAOInterfaceIMPL,main:277 - -----------------------------------------------------------------------------
+23:13:16,301  INFO AdminDAOInterfaceIMPL,main:278 -    USER ID            USER NAME 
+23:13:16,302  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+23:13:16,302  INFO AdminDAOInterfaceIMPL,main:283 - 
+
+
+23:13:40,950  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+23:13:40,950  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+23:13:40,950  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+23:13:40,951  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+23:13:40,951  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+23:13:40,951  INFO AdminDAOInterfaceIMPL,main:373 -         12                  hdk 
+23:13:40,951  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+23:13:52,653  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+23:13:52,654  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+23:13:52,654  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+23:13:52,654  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+23:13:52,654  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+23:13:52,654  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:13:52,654  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+23:13:52,655  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:13:52,655  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+23:13:52,655  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+23:13:52,655  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+23:13:52,655  INFO AdminDAOInterfaceIMPL,main:349 -         23                   JK 
+23:13:52,655  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+23:13:58,212  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+23:13:58,213  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+23:13:58,213  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+23:13:58,213  INFO AdminDAOInterfaceIMPL,main:325 -         67                 Prof 
+23:13:58,213  INFO AdminDAOInterfaceIMPL,main:325 -         33                  HIJ 
+23:13:58,213  INFO AdminDAOInterfaceIMPL,main:325 -         34                  HIJ 
+23:13:58,214  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+23:14:22,157  INFO AdminDAOInterfaceIMPL,main:189 - 
+Course successfully added
+
+23:14:27,671  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+23:14:27,672  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+23:14:27,672  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+23:14:27,672  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+23:14:27,672  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+23:14:27,673  INFO AdminDAOInterfaceIMPL,main:373 -         12                  hdk 
+23:14:27,673  INFO AdminDAOInterfaceIMPL,main:373 -         14                 Java 
+23:14:27,673  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+23:14:32,859  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+23:14:32,859  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+23:14:32,859  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+23:14:32,860  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+23:14:32,860  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+23:14:32,860  INFO AdminDAOInterfaceIMPL,main:373 -         12                  hdk 
+23:14:32,861  INFO AdminDAOInterfaceIMPL,main:373 -         14                 Java 
+23:14:32,861  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+23:14:35,701  INFO AdminDAOInterfaceIMPL,main:213 - 
+Course successfully removed
+
+23:14:40,554  INFO AdminDAOInterfaceIMPL,main:369 - -----------------------------------------------------------------------------
+23:14:40,554  INFO AdminDAOInterfaceIMPL,main:370 -  COURSE ID          COURSE NAME 
+23:14:40,554  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+23:14:40,555  INFO AdminDAOInterfaceIMPL,main:373 -          1      Web Development 
+23:14:40,555  INFO AdminDAOInterfaceIMPL,main:373 -          2             Big Data 
+23:14:40,555  INFO AdminDAOInterfaceIMPL,main:373 -         12                  hdk 
+23:14:40,555  INFO AdminDAOInterfaceIMPL,main:375 - 
+
+
+23:15:17,999  INFO AdminDAOInterfaceIMPL,main:110 - Professor successfully added.
+23:15:23,836  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+23:15:23,836  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+23:15:23,836  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+23:15:23,837  INFO AdminDAOInterfaceIMPL,main:325 -         67                 Prof 
+23:15:23,837  INFO AdminDAOInterfaceIMPL,main:325 -         33                  HIJ 
+23:15:23,837  INFO AdminDAOInterfaceIMPL,main:325 -         34                  HIJ 
+23:15:23,837  INFO AdminDAOInterfaceIMPL,main:325 -         78                   PG 
+23:15:23,837  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+23:15:31,057  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+23:15:31,057  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+23:15:31,057  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+23:15:31,057  INFO AdminDAOInterfaceIMPL,main:325 -         67                 Prof 
+23:15:31,058  INFO AdminDAOInterfaceIMPL,main:325 -         33                  HIJ 
+23:15:31,058  INFO AdminDAOInterfaceIMPL,main:325 -         34                  HIJ 
+23:15:31,058  INFO AdminDAOInterfaceIMPL,main:325 -         78                   PG 
+23:15:31,058  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+23:15:34,300  INFO AdminDAOInterfaceIMPL,main:134 - 
+Professor successfully removed
+
+23:15:41,560  INFO AdminDAOInterfaceIMPL,main:320 - -----------------------------------------------------------------------------
+23:15:41,560  INFO AdminDAOInterfaceIMPL,main:321 - PROFESSOR ID       PROFESSOR NAME 
+23:15:41,561  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+23:15:41,561  INFO AdminDAOInterfaceIMPL,main:325 -         67                 Prof 
+23:15:41,561  INFO AdminDAOInterfaceIMPL,main:325 -         33                  HIJ 
+23:15:41,561  INFO AdminDAOInterfaceIMPL,main:325 -         34                  HIJ 
+23:15:41,561  INFO AdminDAOInterfaceIMPL,main:327 - 
+
+
+23:15:49,055  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+23:15:49,056  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+23:15:49,056  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+23:15:49,056  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+23:15:49,056  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+23:15:49,056  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:15:49,056  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+23:15:49,057  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:15:49,057  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+23:15:49,057  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+23:15:49,057  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+23:15:49,057  INFO AdminDAOInterfaceIMPL,main:349 -         23                   JK 
+23:15:49,057  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+23:15:58,252  INFO AdminDAOInterfaceIMPL,main:163 - Student successfully deleted.
+23:16:09,528  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+23:16:09,528  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+23:16:09,529  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+23:16:09,529  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+23:16:09,529  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+23:16:09,529  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:16:09,530  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+23:16:09,530  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:16:09,530  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+23:16:09,530  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+23:16:09,530  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+23:16:09,531  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+23:16:25,573  INFO AdminDAOInterfaceIMPL,main:345 - -----------------------------------------------------------------------------
+23:16:25,573  INFO AdminDAOInterfaceIMPL,main:346 - STUDENT ID         STUDENT NAME 
+23:16:25,573  INFO AdminDAOInterfaceIMPL,main:347 - -----------------------------------------------------------------------------
+23:16:25,574  INFO AdminDAOInterfaceIMPL,main:349 -          2              Random2 
+23:16:25,574  INFO AdminDAOInterfaceIMPL,main:349 -         17               Piyush 
+23:16:25,574  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:16:25,574  INFO AdminDAOInterfaceIMPL,main:349 -         14                    J 
+23:16:25,574  INFO AdminDAOInterfaceIMPL,main:349 -         12                    K 
+23:16:25,574  INFO AdminDAOInterfaceIMPL,main:349 -         13                    H 
+23:16:25,575  INFO AdminDAOInterfaceIMPL,main:349 -         45                    H 
+23:16:25,575  INFO AdminDAOInterfaceIMPL,main:349 -         12                    J 
+23:16:25,575  INFO AdminDAOInterfaceIMPL,main:351 - 
+
+
+23:16:28,738  INFO AdminDAOInterfaceIMPL,main:78 - -----------------------------------------------------------------------------
+23:16:28,738  INFO AdminDAOInterfaceIMPL,main:79 - Course NAME                GRADE 
+23:16:28,739  INFO AdminDAOInterfaceIMPL,main:80 - -----------------------------------------------------------------------------
+23:16:28,739  INFO AdminDAOInterfaceIMPL,main:84 - 
+
+
+23:17:28,840 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+23:18:11,425 ERROR StudentDAOInterface,main:150 - 
+
+There are no payments to show
+
+
+23:18:58,623 ERROR StudentDAOInterface,main:516 - 
+
+There are no payments to show
+
+
+23:19:37,234  INFO StudentDAOInterface,main:215 - 
+Course 1 added successfully
+
+23:19:55,504  INFO StudentDAOInterface,main:254 - 
+Course 2 added successfully
+
+23:20:33,621  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:20:33---Logged in successfully---
+
+23:37:54,902  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:37:54---Logged in successfully---
+
+23:38:23,712 ERROR AdminDAOInterfaceIMPL,main:118 - 
+Parameter index out of range (3 > number of parameters, which is 2).
+
+23:42:28,845 ERROR AdminDAOInterfaceIMPL,main:118 - 
+Parameter index out of range (3 > number of parameters, which is 2).
+
+23:42:47,409 ERROR AdminDAOInterfaceIMPL,main:118 - 
+Parameter index out of range (3 > number of parameters, which is 2).
+
+23:43:14,282  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:43:14---Logged in successfully---
+
+23:43:37,708  INFO AdminDAOInterfaceIMPL,main:112 - Professor successfully added.
+23:45:03,164  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:45:03---Logged in successfully---
+
+23:45:19,896 ERROR AdminDAOInterfaceIMPL,main:118 - 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'S)' at line 1
+
+23:45:55,558  INFO UserDAOInterface,main:56 - 
+02-08-2022 23:45:55---Logged in successfully---
+
+23:46:15,204  INFO AdminDAOInterfaceIMPL,main:112 - Professor successfully added.
+00:17:09,706  INFO UserDAOInterface,main:56 - 
+03-08-2022 00:17:09---Logged in successfully---
+
+00:17:30,618  INFO AdminDAOInterfaceIMPL,main:191 - 
+Course successfully added
+
+00:17:41,107  INFO AdminDAOInterfaceIMPL,main:191 - 
+Course successfully added
+
+00:18:02,205  INFO AdminDAOInterfaceIMPL,main:112 - Professor successfully added.
+00:18:27,083  INFO AdminDAOInterfaceIMPL,main:112 - Professor successfully added.
+00:18:34,031  INFO AdminDAOInterfaceIMPL,main:322 - -----------------------------------------------------------------------------
+00:18:34,032  INFO AdminDAOInterfaceIMPL,main:323 - PROFESSOR ID       PROFESSOR NAME 
+00:18:34,032  INFO AdminDAOInterfaceIMPL,main:324 - -----------------------------------------------------------------------------
+00:18:34,033  INFO AdminDAOInterfaceIMPL,main:327 -          1                Prof1 
+00:18:34,033  INFO AdminDAOInterfaceIMPL,main:327 -          2                Prof2 
+00:18:34,033  INFO AdminDAOInterfaceIMPL,main:329 - 
+
+
+00:18:40,266  INFO AdminDAOInterfaceIMPL,main:371 - -----------------------------------------------------------------------------
+00:18:40,266  INFO AdminDAOInterfaceIMPL,main:372 -  COURSE ID          COURSE NAME 
+00:18:40,266  INFO AdminDAOInterfaceIMPL,main:373 - -----------------------------------------------------------------------------
+00:18:40,267  INFO AdminDAOInterfaceIMPL,main:375 -          1                 Java 
+00:18:40,267  INFO AdminDAOInterfaceIMPL,main:375 -          2               Python 
+00:18:40,267  INFO AdminDAOInterfaceIMPL,main:377 - 
+
+
+00:20:17,519 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+00:21:27,861  INFO UserDAOInterface,main:56 - 
+03-08-2022 00:21:27---Logged in successfully---
+
+00:21:32,645  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+00:21:32,646  INFO AdminDAOInterfaceIMPL,main:280 -    USER ID            USER NAME 
+00:21:32,646  INFO AdminDAOInterfaceIMPL,main:281 - -----------------------------------------------------------------------------
+00:21:32,646  INFO AdminDAOInterfaceIMPL,main:283 -          1                Prof1 
+00:21:32,646  INFO AdminDAOInterfaceIMPL,main:283 -          2                Prof2 
+00:21:32,646  INFO AdminDAOInterfaceIMPL,main:283 -          1             Student1 
+00:21:32,646  INFO AdminDAOInterfaceIMPL,main:283 -          2             Student2 
+00:21:32,647  INFO AdminDAOInterfaceIMPL,main:285 - 
+
+
+00:22:00,307  INFO AdminDAOInterfaceIMPL,main:279 - -----------------------------------------------------------------------------
+00:22:00,308  INFO AdminDAOInterfaceIMPL,main:280 -    USER ID            USER NAME 
+00:22:00,308  INFO AdminDAOInterfaceIMPL,main:281 - -----------------------------------------------------------------------------
+00:22:00,308  INFO AdminDAOInterfaceIMPL,main:283 -          2                Prof2 
+00:22:00,308  INFO AdminDAOInterfaceIMPL,main:283 -          2             Student2 
+00:22:00,308  INFO AdminDAOInterfaceIMPL,main:285 - 
+
+
+00:22:34,491  INFO UserDAOInterface,main:56 - 
+03-08-2022 00:22:34---Logged in successfully---
+
+00:22:41,168 ERROR ProfessorCRSMenu,main:51 - Invalid Choice
+00:22:59,826  INFO StudentDAOInterface,main:215 - 
+Course 1 added successfully
+
+00:23:25,640  INFO UserDAOInterface,main:56 - 
+03-08-2022 00:23:25---Logged in successfully---
+
+00:23:36,986  INFO ProfessorDAOInterfaceIMPL,main:245 - 
+Course assigned successfully
+
+00:23:40,407  INFO ProfessorDAOInterfaceIMPL,main:194 - =======Assigned Courses=======
+00:23:40,407  INFO ProfessorDAOInterfaceIMPL,main:199 - ---------------------------------------------------
+00:23:40,407  INFO ProfessorDAOInterfaceIMPL,main:200 -            Course ID
+00:23:40,408  INFO ProfessorDAOInterfaceIMPL,main:201 - ---------------------------------------------------
+00:23:40,408  INFO ProfessorDAOInterfaceIMPL,main:205 -                    1
+00:23:50,664  INFO ProfessorDAOInterfaceIMPL,main:297 - =====Enrolled Students in course1======
+00:23:50,668  INFO ProfessorDAOInterfaceIMPL,main:304 - 
+There are no students enrolled for this course
+
+00:24:10,844 ERROR ProfessorInterfaceImpl,main:61 - 
+No Students to Grade!!!
+
+00:24:29,070 ERROR ProfessorCRSMenu,main:51 - Invalid Choice
+00:25:03,736  INFO UserDAOInterface,main:56 - 
+03-08-2022 00:25:03---Logged in successfully---
+
+00:25:06,568  INFO ProfessorDAOInterfaceIMPL,main:194 - =======Assigned Courses=======
+00:25:06,569  INFO ProfessorDAOInterfaceIMPL,main:199 - ---------------------------------------------------
+00:25:06,569  INFO ProfessorDAOInterfaceIMPL,main:200 -            Course ID
+00:25:06,569  INFO ProfessorDAOInterfaceIMPL,main:201 - ---------------------------------------------------
+00:25:06,569  INFO ProfessorDAOInterfaceIMPL,main:205 -                    1
+00:25:16,835 ERROR ProfessorInterfaceImpl,main:237 - 
+No student is currently enrolled in the course!!!
+
+00:25:28,061  INFO ProfessorDAOInterfaceIMPL,main:194 - =======Assigned Courses=======
+00:25:28,061  INFO ProfessorDAOInterfaceIMPL,main:199 - ---------------------------------------------------
+00:25:28,061  INFO ProfessorDAOInterfaceIMPL,main:200 -            Course ID
+00:25:28,061  INFO ProfessorDAOInterfaceIMPL,main:201 - ---------------------------------------------------
+00:25:28,062  INFO ProfessorDAOInterfaceIMPL,main:205 -                    1
+00:25:32,800  INFO ProfessorDAOInterfaceIMPL,main:297 - =====Enrolled Students in course1======
+00:25:32,803  INFO ProfessorDAOInterfaceIMPL,main:304 - 
+There are no students enrolled for this course
+
+00:25:37,986 ERROR ProfessorInterfaceImpl,main:61 - 
+No Students to Grade!!!
+
+13:35:06,082 ERROR CRSApplication,main:80 - 
+Invalid Credentials
+
+13:35:46,597  INFO UserDAOInterface,main:56 - 
+03-08-2022 13:35:46---Logged in successfully---
+
+19:41:34,987  INFO UserDAOInterface,main:56 - 
+03-08-2022 19:41:34---Logged in successfully---
+
+15:10:53,610  INFO UserDAOInterface,main:56 - 
+04-08-2022 15:10:53---Logged in successfully---
+
